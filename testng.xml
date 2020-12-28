@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grid" parallel="tests">
+    <test name="Node1">
+        <classes><class name="com.company.Node1"></class></classes>
+    </test>
+    <test name="Node2">
+        <classes><class name="com.company.Node2"></class></classes>
+    </test>
+</suite>
